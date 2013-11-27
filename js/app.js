@@ -9,7 +9,7 @@ function main() {
     loaderControl: false //dont show tiles loader
   };
 
-  cartodb.createVis('map', 'http://saleiva.cartodb.com/api/v2/viz/20a26a6a-eef9-11e2-8999-3085a9a9563c/viz.json', options)
+  cartodb.createVis('map', 'http://ryancook.cartodb.com/viz/9c358376-55f9-11e3-aeeb-078aae0fd0ec/embed_map', options)
     .done(function(vis, layers) {
       // there are two layers, base layer and points layer
       var sublayer = layers[1].getSubLayer(0);
@@ -27,7 +27,7 @@ function main() {
       vis.addOverlay({
         type: 'infobox',
         template: '<h3>{{name_to_display}}</h3><p>{{description}}</p>',
-        width: 200,
+        width: 400,
         position: 'bottom|right'
       });
 
