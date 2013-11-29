@@ -9,8 +9,8 @@ function main() {
     loaderControl: false //dont show tiles loader
   };
 
-  cartodb.createVis('map', 'http://kmytty.cartodb.com/api/v2/viz/183b1800-57a8-11e3-b975-69eedfb9ce6c/viz.json', options)
-    .done(function(vis, layers) {
+  cartodb.createVis('map', 'http://saleiva.cartodb.com/api/v2/viz/20a26a6a-eef9-11e2-8999-3085a9a9563c/viz.json', options)
+    .done(function(vis, lawyers) {
       // there are two layers, base layer and points layer
       var sublayer = layers[1].getSubLayer(0);
       sublayer.set({ 'interactivity': ['cartodb_id', 'name_to_display', 'description'] });
@@ -27,7 +27,7 @@ function main() {
       vis.addOverlay({
         type: 'infobox',
         template: '<h3>{{name_to_display}}</h3><p>{{description}}</p>',
-        width: 400,
+        width: 200,
         position: 'bottom|right'
       });
 
