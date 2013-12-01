@@ -10,7 +10,7 @@ function main() {
   };
 
 <<<<<<< HEAD
-  cartodb.createVis('map', 'http://saleiva.cartodb.com/api/v2/viz/20a26a6a-eef9-11e2-8999-3085a9a9563c/viz.json', options)
+  cartodb.createVis('map', 'http://kmytty.cartodb.com/api/v2/viz/183b1800-57a8-11e3-b975-69eedfb9ce6c/viz.json', options)
     .done(function(vis, lawyers) {
 =======
   cartodb.createVis('map', 'http://kmytty.cartodb.com/api/v2/viz/f0e12a5e-57ae-11e3-a874-fb377fdb1b81/viz.json', options)
