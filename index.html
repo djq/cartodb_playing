@@ -1,7 +1,7 @@
 
 <html>
   <head>
-    <title>testing here now</title>
+    <title>Mixed Use City</title>
     <link href="css/reset.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" /> 
     <link href="css/style.css" rel="stylesheet" type="text/css" />
@@ -26,8 +26,8 @@
       <p>This map was developed using the CartoDB JavaScript library, <a href="https://github.com/CartoDB/cartodb.js">Cartodb.js</a> Fork it and create your own.</p>
       <div id="legendBox">
         <ul>
-          <li>Natural Parks</li>
-          <li>Villages</li>
+          <li>Mixed Use City</li>
+          <li>High Use</li>
           <li>Rivers</li>
           <li>Fields</li>
           <li>Caves</li>
@@ -47,12 +47,12 @@
         <a href="#close" class="cartodb-popup-close-button close">x</a>
          <div class="cartodb-popup-content-wrapper">
            <div class="cartodb-popup-cont">
-            <img src="{{content.data.pic}}" />
+            <img src="http://www.jeffgothelf.com/blog/wp-content/uploads/2011/04/unicorn.jpg" height="200" />
             <h4>{{content.data.name_to_display}}</h4>
             {{#content.data.video_url}}
               <a class="videoButton" href="{{content.data.video_url}}" target="_blank"> </a>
             {{/content.data.video_url}}
-            <p>{{content.data.description}}</p>
+            <p>hello</p>
            </div>
          </div>
          <div class="cartodb-popup-tip-container"></div>

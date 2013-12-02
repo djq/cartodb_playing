@@ -202,7 +202,7 @@ div.cartodb-popup div.cartodb-popup-tip-container::after {
 }
 
 div.cartodb-infobox {
-	bottom:35px!important;
+	bottom:600px!important;
 	font-family: "Helvetica",Arial;
 }
 
